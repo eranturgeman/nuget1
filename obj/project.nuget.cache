@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "8frv+5kdtPDww0Sa8I1QDQ1QpK5QF7OU0YjWjrxL8J1Wa2MlL+z3FBRhu4R7BQvASxNKDtKPDuwereOn4tncHw==",
+  "dgSpecHash": "BaxkSUc1a8XzCtflW+Ykjrfwnnr2PMtlQuq0U6FXEEbaLksPe5JfabKX5obfvQxnCd7vVGbBy/cLtU7NJv0xqg==",
   "success": true,
   "projectFilePath": "/Users/erant/Desktop/my-project-examples/nuget1/nuget1.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/erant/.nuget/packages/snappier/1.1.0/snappier.1.1.0.nupkg.sha512"
+  ],
   "logs": []
 }
