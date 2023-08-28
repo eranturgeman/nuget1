@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net7.0": {
-      "Snappier/1.1.0": {
+      "Snappier/1.1.1": {
         "type": "package",
         "compile": {
           "lib/net7.0/Snappier.dll": {
@@ -15,7 +15,7 @@
           }
         }
       },
-      "SSH.NET/2020.0.0": {
+      "SSH.NET/2020.0.2": {
         "type": "package",
         "dependencies": {
           "SshNet.Security.Cryptography": "[1.3.0]"
@@ -47,10 +47,10 @@
     }
   },
   "libraries": {
-    "Snappier/1.1.0": {
-      "sha512": "ws78FoXdwY5rTwoSqpdl9HFpgSU4ih0byThG2+s+Bm1VSfyhkQxOdrV0aWQ1R1MptA8EwAcrnn3Mh0GkFSssxA==",
+    "Snappier/1.1.1": {
+      "sha512": "p0xEWUG8wYUfO24b6VTcFplBO+1ohgL9rK+1ogP8N4oGOKXlLuOLpzYtPBXNxTcYQxxmX3PJdCdqnv0tgcy5YQ==",
       "type": "package",
-      "path": "snappier/1.1.0",
+      "path": "snappier/1.1.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -61,14 +61,14 @@
         "lib/net7.0/Snappier.xml",
         "lib/netstandard2.0/Snappier.dll",
         "lib/netstandard2.0/Snappier.xml",
-        "snappier.1.1.0.nupkg.sha512",
+        "snappier.1.1.1.nupkg.sha512",
         "snappier.nuspec"
       ]
     },
-    "SSH.NET/2020.0.0": {
-      "sha512": "lEO6dMG/FooezubgOHvFq54zmKqtnbDUUU2unnHVyu0p2oRf6Xu5khbqo2lbwv30rJNzAtrCCp2UPAerNbMsbQ==",
+    "SSH.NET/2020.0.2": {
+      "sha512": "G0dNlTBAM00KZXv1wWVwgg26d9/METcM6qWBpNQwllzQmmbu+Zu+FS1L1X4fFgGdPu3e8k9mmTBu6SwtQ0614g==",
       "type": "package",
-      "path": "ssh.net/2020.0.0",
+      "path": "ssh.net/2020.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -90,7 +90,7 @@
         "lib/wp71/Renci.SshNet.xml",
         "lib/wp8/Renci.SshNet.dll",
         "lib/wp8/Renci.SshNet.xml",
-        "ssh.net.2020.0.0.nupkg.sha512",
+        "ssh.net.2020.0.2.nupkg.sha512",
         "ssh.net.nuspec"
       ]
     },
@@ -132,8 +132,8 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "snappier >= 1.1.0",
-      "ssh.net >= 2020.0.0"
+      "snappier >= 1.1.1",
+      "ssh.net >= 2020.0.2"
     ]
   },
   "packageFolders": {
@@ -142,11 +142,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/erant/Desktop/my-project-examples/nuget1/nuget1.csproj",
+      "projectUniqueName": "/private/var/folders/rn/2q4729rn08qgqr8yj55ny8qh0000gq/T/jfrog.cli.temp.-1693215762-3468298784/nuget1.csproj",
       "projectName": "nuget1",
-      "projectPath": "/Users/erant/Desktop/my-project-examples/nuget1/nuget1.csproj",
+      "projectPath": "/private/var/folders/rn/2q4729rn08qgqr8yj55ny8qh0000gq/T/jfrog.cli.temp.-1693215762-3468298784/nuget1.csproj",
       "packagesPath": "/Users/erant/.nuget/packages/",
-      "outputPath": "/Users/erant/Desktop/my-project-examples/nuget1/obj/",
+      "outputPath": "/private/var/folders/rn/2q4729rn08qgqr8yj55ny8qh0000gq/T/jfrog.cli.temp.-1693215762-3468298784/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/erant/.nuget/NuGet/NuGet.Config"
@@ -175,11 +175,11 @@
         "dependencies": {
           "snappier": {
             "target": "Package",
-            "version": "[1.1.0, )"
+            "version": "[1.1.1, )"
           },
           "ssh.net": {
             "target": "Package",
-            "version": "[2020.0.0, )"
+            "version": "[2020.0.2, )"
           }
         },
         "imports": [
