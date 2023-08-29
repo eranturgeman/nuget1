@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="snappier" Version="1.1.0" />
+    <PackageReference Include="ssh.net" Version="2020.0.0" />
   </ItemGroup>
 
 </Project>
