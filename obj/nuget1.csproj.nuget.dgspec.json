@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/erant/Desktop/my-project-examples/nuget1/nuget1.csproj": {}
+    "/private/var/folders/rn/2q4729rn08qgqr8yj55ny8qh0000gq/T/jfrog.cli.temp.-1695028014-3054540082/nuget1.csproj": {}
   },
   "projects": {
-    "/Users/erant/Desktop/my-project-examples/nuget1/nuget1.csproj": {
+    "/private/var/folders/rn/2q4729rn08qgqr8yj55ny8qh0000gq/T/jfrog.cli.temp.-1695028014-3054540082/nuget1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/erant/Desktop/my-project-examples/nuget1/nuget1.csproj",
+        "projectUniqueName": "/private/var/folders/rn/2q4729rn08qgqr8yj55ny8qh0000gq/T/jfrog.cli.temp.-1695028014-3054540082/nuget1.csproj",
         "projectName": "nuget1",
-        "projectPath": "/Users/erant/Desktop/my-project-examples/nuget1/nuget1.csproj",
+        "projectPath": "/private/var/folders/rn/2q4729rn08qgqr8yj55ny8qh0000gq/T/jfrog.cli.temp.-1695028014-3054540082/nuget1.csproj",
         "packagesPath": "/Users/erant/.nuget/packages/",
-        "outputPath": "/Users/erant/Desktop/my-project-examples/nuget1/obj/",
+        "outputPath": "/private/var/folders/rn/2q4729rn08qgqr8yj55ny8qh0000gq/T/jfrog.cli.temp.-1695028014-3054540082/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/erant/.nuget/NuGet/NuGet.Config"
@@ -24,6 +24,7 @@
         },
         "frameworks": {
           "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -35,17 +36,34 @@
       },
       "frameworks": {
         "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "snappier": {
               "target": "Package",
-              "version": "[1.1.0, )"
+              "version": "[1.1.1, )"
             },
             "ssh.net": {
               "target": "Package",
-              "version": "[2020.0.0, )"
+              "version": "[2020.0.2, )"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.426/RuntimeIdentifierGraph.json"
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
         }
       }
     }
