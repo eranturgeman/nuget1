@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "XD0GfIoflyKPKmh74AJ11y9WuvT6j31jQbxWnd7uXkUVA5R94jS3o5O6TuiNMsxR0Rzw6oJUk57xp7+9gGKAlg==",
+  "success": true,
+  "projectFilePath": "/private/var/folders/rn/2q4729rn08qgqr8yj55ny8qh0000gq/T/jfrog.cli.temp.-1696148628-1288516258/nuget1.csproj",
+  "expectedPackageFiles": [
+    "/Users/erant/.nuget/packages/snappier/1.1.1/snappier.1.1.1.nupkg.sha512",
+    "/Users/erant/.nuget/packages/ssh.net/2020.0.2/ssh.net.2020.0.2.nupkg.sha512",
+    "/Users/erant/.nuget/packages/sshnet.security.cryptography/1.3.0/sshnet.security.cryptography.1.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}
