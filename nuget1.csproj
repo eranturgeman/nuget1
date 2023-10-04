@@ -8,9 +8,9 @@
 
   <ItemGroup>
     <PackageReference Include="Google.Cloud.Kms.V1" Version="2.0.0" />
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
-    <PackageReference Include="snappier" Version="1.1.0" />
-    <PackageReference Include="ssh.net" Version="2020.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="snappier" Version="1.1.1" />
+    <PackageReference Include="ssh.net" Version="2020.0.2" />
   </ItemGroup>
 
 </Project>
