@@ -1,19 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/erant/Desktop/my-project-examples/nuget1/nuget1.csproj": {}
+    "/private/var/folders/rn/2q4729rn08qgqr8yj55ny8qh0000gq/T/jfrog.cli.temp.-1708446714-2565180014/nuget1.csproj": {}
   },
   "projects": {
-    "/Users/erant/Desktop/my-project-examples/nuget1/nuget1.csproj": {
+    "/private/var/folders/rn/2q4729rn08qgqr8yj55ny8qh0000gq/T/jfrog.cli.temp.-1708446714-2565180014/nuget1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/erant/Desktop/my-project-examples/nuget1/nuget1.csproj",
+        "projectUniqueName": "/private/var/folders/rn/2q4729rn08qgqr8yj55ny8qh0000gq/T/jfrog.cli.temp.-1708446714-2565180014/nuget1.csproj",
         "projectName": "nuget1",
-        "projectPath": "/Users/erant/Desktop/my-project-examples/nuget1/nuget1.csproj",
+        "projectPath": "/private/var/folders/rn/2q4729rn08qgqr8yj55ny8qh0000gq/T/jfrog.cli.temp.-1708446714-2565180014/nuget1.csproj",
         "packagesPath": "/Users/erant/.nuget/packages/",
-        "outputPath": "/Users/erant/Desktop/my-project-examples/nuget1/obj/",
+        "outputPath": "/private/var/folders/rn/2q4729rn08qgqr8yj55ny8qh0000gq/T/jfrog.cli.temp.-1708446714-2565180014/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
+          "/private/var/folders/rn/2q4729rn08qgqr8yj55ny8qh0000gq/T/jfrog.cli.temp.-1708446714-2565180014/NuGet.Config",
           "/Users/erant/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
@@ -21,7 +22,7 @@
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {},
-          "https://ecosysjfrog.jfrog.io/artifactory/api/nuget/v3/default-nuget-virtual": {}
+          "https://ecosysjfrog.jfrog.io/artifactory/api/nuget/v3/default-nuget-remote": {}
         },
         "frameworks": {
           "net7.0": {
@@ -41,7 +42,7 @@
           "dependencies": {
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[12.0.3, )"
+              "version": "[13.0.1, )"
             },
             "Serilog.Settings.Configuration": {
               "target": "Package",
@@ -49,11 +50,11 @@
             },
             "snappier": {
               "target": "Package",
-              "version": "[1.1.0, )"
+              "version": "[1.1.1, )"
             },
             "ssh.net": {
               "target": "Package",
-              "version": "[2020.0.0, )"
+              "version": "[2020.0.2, )"
             }
           },
           "imports": [
