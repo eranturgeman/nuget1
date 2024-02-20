@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <packageSources>
+    <add key="JFrogCli" value="https://ecosysjfrog.jfrog.io/artifactory/api/nuget/v3/default-nuget-remote" protocolVersion="3" />
+  </packageSources>
+  <packageSourceCredentials>
+    <JFrogCli>
+      <add key="Username" value="erant" />
+      <add key="ClearTextPassword" value="eyJ2ZXIiOiIyIiwidHlwIjoiSldUIiwiYWxnIjoiUlMyNTYiLCJraWQiOiJDRlVIRER4UXZaM1VNWEZxS0ZWUlFiOEFROEd6VWxSZkZJMEt4TmIzdk1jIn0.eyJzdWIiOiJqZmFjQDAxZ2dtcXFwNzQzNm45MHd3cjhibmcxenk5L3VzZXJzL2VyYW50Iiwic2NwIjoiYXBwbGllZC1wZXJtaXNzaW9ucy9hZG1pbiIsImF1ZCI6IipAKiIsImlzcyI6ImpmZmVAMDFnZ21xcXA3NDM2bjkwd3dyOGJuZzF6eTkiLCJpYXQiOjE3MDA5OTE2NjcsImp0aSI6Ijg5OGZlY2IxLWUwOTQtNDk1Mi1iYzg3LTcyNjA2Yzk5YTUxNyJ9.A_rkxZoWnZOzHNI8T2SZtOz-XXyVG7lnh0KjHCd8PDZymkJudpe3PnOrOxYUF0pQO4aXxwBBkeAUOt-jvpMKEqjYKASvNSy2612Acwvimn4Ms8R7hAu6xArckWzuQjVvIXVbJa_XCXDWBhuD1_a0yeu1BHJEpwQEdbpHSinzZczBCy_7Sfwa9Tq3qrsiKmr8tf_7iuexMbq-H_wnf0XCifEoL3EBiEkTTnU26Koh5yr9DiiopS3qhA_mmZJLs64UnvvjpfPbhWsnZjIpNrG_sfMFrM6fDBXV7mNK40-Db8tL_xh-naTa8-XtE79skFnmUwVBAfob_iOwohKAJLARsQ" />
+    </JFrogCli>
+  </packageSourceCredentials>
+</configuration>
