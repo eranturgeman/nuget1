@@ -64,19 +64,24 @@
       # 2. The `installCommand` variable isn't set in your frogbot-config.yml file.
       #
       # The command that installs the project dependencies (e.g "nuget restore")
-       #- installCommand: "dotnet restore --disable-build-servers"
+       - installCommand: "dotnet restore --disable-build-servers"
 
       # [Default: root directory]
       # List of relative path's to the projects directories in the git repository
-      - workingDirs:
-        - "<relative path from root to 'frontend' dir>"
+      #   workingDirs:
+      #     - "."
+
+      # [Mandatory for pip only if using requirements file, Default: pip install .]
+      # The requirements file name that is used to install dependencies in case of pip package manager
+      #   pipRequirementsFile: ""
+
+      # [Default: true]
+      # Use Gradle Wrapper (gradlew/gradlew.bat) to run Gradle
+      #   useWrapper: true
+
       # [Optional]
       # Name of a Virtual Repository in Artifactory to resolve (download) the project dependencies from
-        repository: "default-nuget-remote"
-
-      - workingDirs:
-          - "<relative path from root to 'artifactory-oss' dir>"
-        repository: "default-maven-remote"
+         repository: "default-nuget-remote"
 
     # JFrog Platform parameters
     jfrogPlatform:
