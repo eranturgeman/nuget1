@@ -3008,8 +3008,7 @@
         "net7.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {},
-        "https://ecosysjfrog.jfrog.io/artifactory/api/nuget/v3/default-nuget-virtual": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
