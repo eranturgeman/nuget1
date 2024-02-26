@@ -82,6 +82,7 @@
       # [Optional]
       # Name of a Virtual Repository in Artifactory to resolve (download) the project dependencies from
          repository: "default-nuget-remote"
+         uniqueIdentifier: "my-identifier"
 
     # JFrog Platform parameters
     jfrogPlatform:
