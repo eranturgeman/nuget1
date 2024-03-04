@@ -32,7 +32,7 @@
       # [Optional, Default: false]
       # If true, Frogbot creates a single pull request with all the fixes.
       # If false, Frogbot creates a separate pull request for each fix.
-      aggregateFixes: true
+      aggregateFixes: false
 
       # [Optional, Default: eco-system+frogbot@jfrog.com]
       # Set the email of the commit author
@@ -82,7 +82,6 @@
       # [Optional]
       # Name of a Virtual Repository in Artifactory to resolve (download) the project dependencies from
          repository: "default-nuget-remote"
-         uniqueIdentifier: "my-identifier"
 
     # JFrog Platform parameters
     jfrogPlatform:
